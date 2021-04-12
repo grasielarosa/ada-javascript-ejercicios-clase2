@@ -87,3 +87,37 @@ calcularPorcentaje(10, 50)
 calcularPorcentaje(200, 10)
 
 //14.Sumar porcentaje
+
+//15.
+
+//16.Calcular FPS
+function calcularFPS(cuadros, minutos) {
+    return (cuadros * (minutos * 60));
+}
+calcularFPS(1, 1)
+calcularFPS(10, 2)
+calcularFPS(2, 3)
+
+//17.Obtener competencia
+function obtenerCompetencia(competencia1, competencia2) {
+    return (`${competencia1} vs. ${competencia2}`);
+}
+obtenerCompetencia('JavaScript', 'Python')
+obtenerCompetencia('Coca', 'Pepsi')
+obtenerCompetencia('Perros', 'Gatos')
+
+//18.Generar email
+function generarEmail(usuario, dominio) {
+    return (`${usuario}@${dominio}.com`)
+}
+generarEmail('adalovelace', 'gmail')
+
+//19.Calcular puntaje
+function calcularPuntaje(facil, normal, dificil) {
+    return ((facil * 3) + (normal * 5) + (dificil * 10));
+}
+calcularPuntaje(3, 0, 0)
+
+calcularPuntaje(0, 2, 1)
+
+calcularPuntaje(5, 1, 2)
